@@ -1,0 +1,37 @@
+2026-04-10 07:01:06 [INFO] docrevive: ============================================================
+2026-04-10 07:01:06 [INFO] docrevive: DocRevive — run started at 2026-04-10T07:01:06.783343
+2026-04-10 07:01:06 [INFO] docrevive: Command: main.py --input_dir samples/inputs --output_dir samples/outputs --no_llm --gpu_ids 0,1,2,3 --debug
+2026-04-10 07:01:06 [INFO] docrevive: Resume mode: True
+2026-04-10 07:01:06 [INFO] docrevive: ============================================================
+2026-04-10 07:01:06 [INFO] docrevive: ─── Selected images (5 images) ───
+2026-04-10 07:01:06 [INFO] docrevive:   Black_Ink            1
+2026-04-10 07:01:06 [INFO] docrevive:   Sim                  1
+2026-04-10 07:01:06 [INFO] docrevive:   Through_Dust         1
+2026-04-10 07:01:06 [INFO] docrevive:   White_Burnt          1
+2026-04-10 07:01:06 [INFO] docrevive:   White_Whitener       1
+2026-04-10 07:01:06 [INFO] docrevive: Manifest saved: samples/outputs/manifest.json
+2026-04-10 07:01:06 [INFO] docrevive: Resume: no previously completed images found.
+2026-04-10 07:01:06 [INFO] docrevive: Processing 5 image(s).
+2026-04-10 07:01:09 [INFO] docrevive: Batch mode: 5 images, 4 workers on GPUs [0, 1, 2, 3], vLLM on GPUs 0,1,2,3 (tensor_parallel=4).
+2026-04-10 07:01:09 [INFO] parallel: --no_llm mode: skipping vLLM server. All GPUs free for pipeline.
+2026-04-10 07:01:09 [INFO] parallel: Spawned 4 persistent workers on GPUs [0, 1, 2, 3]
+2026-04-10 07:04:23 [INFO] parallel: Batch complete: 5/5 successful.
+2026-04-10 07:04:23 [INFO] docrevive: ============================================================
+2026-04-10 07:04:23 [INFO] docrevive: Run finished at 2026-04-10T07:04:23.177255
+2026-04-10 07:04:23 [INFO] docrevive: Elapsed      : 3.2 min (194 sec)
+2026-04-10 07:04:23 [INFO] docrevive: This run     : 5 images dispatched
+2026-04-10 07:04:23 [INFO] docrevive: Overall      : 5/5 completed, 0 failed, 0 remaining
+2026-04-10 07:04:23 [INFO] docrevive: ─── Results by occlusion type ───
+2026-04-10 07:04:23 [INFO] docrevive:   Type                  Success   Failed    Total
+2026-04-10 07:04:23 [INFO] docrevive:   ──────────────────────────────────────────────────
+2026-04-10 07:04:23 [INFO] docrevive:   Black_Ink                   1        0        1
+2026-04-10 07:04:23 [INFO] docrevive:   Sim                         1        0        1
+2026-04-10 07:04:23 [INFO] docrevive:   Through_Dust                1        0        1
+2026-04-10 07:04:23 [INFO] docrevive:   White_Burnt                 1        0        1
+2026-04-10 07:04:23 [INFO] docrevive:   White_Whitener              1        0        1
+2026-04-10 07:04:23 [INFO] docrevive:   ──────────────────────────────────────────────────
+2026-04-10 07:04:23 [INFO] docrevive:   TOTAL                       5        0        5
+2026-04-10 07:04:23 [INFO] docrevive: Log file     : samples/outputs/run.log
+2026-04-10 07:04:23 [INFO] docrevive: Manifest     : samples/outputs/manifest.json
+2026-04-10 07:04:23 [INFO] docrevive: Results JSONL : samples/outputs/results.jsonl
+2026-04-10 07:04:23 [INFO] docrevive: ============================================================
